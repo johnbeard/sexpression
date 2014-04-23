@@ -1,3 +1,5 @@
+define(function(require, exports, module) {
+
 var Symbol = require('./lib/symbol');
 
 var sexpression = module.exports = {
@@ -6,3 +8,5 @@ var sexpression = module.exports = {
 , stringify: require('./lib/stringify')
 , parse: require('./lib/parse')
 };
+
+});
